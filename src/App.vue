@@ -1,32 +1,58 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <v-app>
+        <header-component> </header-component>
+        <v-main>
+            <router-view />
+        </v-main>
+    </v-app>
+    </header-component>
 </template>
 
+<script>
+import HeaderComponent from './components/HeaderComponent.vue'
+
+export default {
+    name: 'app',
+
+    components: {
+        HeaderComponent,
+    },
+
+    data: () => ({
+    }),
+}
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import 'src/scss/variables.scss';
+
+.v-application {
+   font-family: $body-font-family !important;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+@font-face {
+  font-family: "Teko Bold";
+  src: local("Teko Bold"),
+   url(./fonts/Teko/Teko-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Teko Light";
+  src: local("Teko Light"),
+   url(./fonts/Teko/Teko-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Teko Medium";
+  src: local("Teko Medium"),
+   url(./fonts/Teko/Teko-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Teko";
+  src: local("Teko"),
+   url(./fonts/Teko/Teko-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Teko SemiBold";
+  src: local("Teko Bold"),
+   url(./fonts/Teko/Teko-SemiBold.ttf) format("truetype");
 }
 </style>
