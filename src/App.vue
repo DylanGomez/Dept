@@ -46,8 +46,8 @@ export default {
    url(./fonts/Teko/Teko-Medium.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Teko";
-  src: local("Teko"),
+  font-family: "Teko Regular";
+  src: local("Teko Regular"),
    url(./fonts/Teko/Teko-Regular.ttf) format("truetype");
 }
 @font-face {

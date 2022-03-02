@@ -1,0 +1,38 @@
+
+[
+    {
+      "id": 1,
+      "company": "Bol.com",
+      "title": "A summer island in the Netherlands",
+      "img": "bolcom.png",
+      "cols": 6
+    },
+    {
+      "id": 2,
+      "company": "bol.com",
+      "title": "A summer island in the Netherlands",
+      "img": "bolcom.png",
+      "cols": 6
+    },
+    {
+      "id": 3,
+      "company": "Bol.com",
+      "title": "A summer island in the Netherlands",
+      "img": "bolcom.png",
+      "cols": 6
+    },
+    {
+      "id": 4,
+      "company": "Bol.com",
+      "title": "A summer island in the Netherlands",
+      "img": "bolcom.png",
+      "cols": 6
+    },
+    {
+      "id": 5,
+      "company": "Bol.com",
+      "title": "A summer island in the Netherlands",
+      "img": "bolcom.png",
+      "cols": 6
+    }
+]
