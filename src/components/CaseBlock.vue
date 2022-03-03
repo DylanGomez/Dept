@@ -1,18 +1,19 @@
 <template>
     <v-card
-        class="mx-auto"
-        max-width="344"
+        class="mx-auto case-card"
+        :style="`grid-row='${gridRow}; grid-column: ${gridColumn};`"
+        flat
     >
         <v-img
             :src="require(`../assets/Images/${imageUrl}`)"
-            height="200px"
+            height="500px"
         ></v-img>
 
-        <v-card-title>
+        <v-card-title class="case-card__title">
             {{ companyName }}
         </v-card-title>
 
-        <v-card-subtitle>
+        <v-card-subtitle class="case-card__subtitle">
             {{ description }}
         </v-card-subtitle>
 
@@ -62,9 +63,13 @@ export default {
             type: String,
             default: null,
         },
-        cols: {
+        gridRow: {
             type: Number,
-            default: 6,
+            default: 1,
+        },
+        gridColumn: {
+            type: String,
+            default: '1',
         },
     },
 
@@ -76,5 +81,19 @@ export default {
 </script>
 
 <style lang="scss">
+
+.case-card {
+
+    // importants here are used to overwrite default font sizes of vuetify cards
+    &__title {
+        font-family: Arial;
+        font-size: 1rem !important;
+        font-weight: bold;
+    }
+
+    &__subtitle {
+        font-size: 2rem !important;
+    }
+}
 
 </style>

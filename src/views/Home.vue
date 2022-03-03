@@ -1,14 +1,16 @@
 <template>
-    <div>
+    <v-container fluid class="case-container">
         <case-block
             v-for="customerCase in cases"
             :key="customerCase.id"
             :company-name="customerCase.company"
             :description="customerCase.title"
             :image-url="customerCase.img"
+            :grid-row="customerCase.gridRow"
+            :grid-column="customerCase.gridColumn"
         >
         </case-block>
-    </div>
+    </v-container>
 </template>
 
 <script>
@@ -30,3 +32,11 @@ export default {
     },
 }
 </script>
+
+<style lang="scss">
+.case-container {
+    display: grid;
+    gap: 10px;
+}
+
+</style>

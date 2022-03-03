@@ -28,6 +28,7 @@ export default {
 
 .v-application {
    font-family: $body-font-family !important;
+   margin: 1.5rem 2rem;
 }
 
 @font-face {

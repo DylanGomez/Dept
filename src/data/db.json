@@ -5,34 +5,38 @@
       "company": "Bol.com",
       "title": "A summer island in the Netherlands",
       "img": "bolcom.png",
-      "cols": 6
+      "gridRow": 1,
+      "gridColumn": "1 / 6"
     },
     {
       "id": 2,
-      "company": "bol.com",
-      "title": "A summer island in the Netherlands",
-      "img": "bolcom.png",
-      "cols": 6
+      "company": "Kempen",
+      "title": "Not your average booking website",
+      "img": "kempen.png",
+      "gridRow": 1,
+      "gridColumn": "6 / 12"
     },
     {
       "id": 3,
-      "company": "Bol.com",
-      "title": "A summer island in the Netherlands",
-      "img": "bolcom.png",
-      "cols": 6
+      "company": "Philips",
+      "title": "Beautiful design meets innovative technology",
+      "img": "philips.png",
+      "gridRow": 2,
+      "gridColumn": "1 / 3"
     },
     {
       "id": 4,
-      "company": "Bol.com",
-      "title": "A summer island in the Netherlands",
-      "img": "bolcom.png",
-      "cols": 6
+      "company": "Gemeentemuseum",
+      "title": "A 100 years of Mondriaan & De Stijl",
+      "img": "gemeentemuseum.png",
+      "gridRow": 2,
+      "gridColumn": "3 / 5"
     },
     {
       "id": 5,
-      "company": "Bol.com",
-      "title": "A summer island in the Netherlands",
-      "img": "bolcom.png",
-      "cols": 6
+      "company": "Florensis.com",
+      "title": "Rethinking the entire online ecosystem",
+      "img": "florensis.png",
+      "gridRow": 10
     }
 ]
