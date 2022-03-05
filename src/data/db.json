@@ -5,23 +5,23 @@
       "company": "Bol.com",
       "title": "A summer island in the Netherlands",
       "img": "bolcom.png",
-      "gridRow": 1,
-      "gridColumn": "1 / 6"
+      "gridRow": "1",
+      "gridColumn": "1 / 3"
     },
     {
       "id": 2,
       "company": "Kempen",
       "title": "Not your average booking website",
       "img": "kempen.png",
-      "gridRow": 1,
-      "gridColumn": "6 / 12"
+      "gridRow": "1",
+      "gridColumn": "3 / 4"
     },
     {
       "id": 3,
       "company": "Philips",
       "title": "Beautiful design meets innovative technology",
       "img": "philips.png",
-      "gridRow": 2,
+      "gridRow": "2",
       "gridColumn": "1 / 3"
     },
     {
@@ -29,14 +29,103 @@
       "company": "Gemeentemuseum",
       "title": "A 100 years of Mondriaan & De Stijl",
       "img": "gemeentemuseum.png",
-      "gridRow": 2,
-      "gridColumn": "3 / 5"
+      "gridRow": "2",
+      "gridColumn": "3 / 4"
     },
     {
       "id": 5,
       "company": "Florensis.com",
       "title": "Rethinking the entire online ecosystem",
       "img": "florensis.png",
-      "gridRow": 10
+      "gridRow": "3 / 5" ,
+      "gridColumn": "1 / 3"
+    },
+    {
+      "id": 6,
+      "company": "Microsoft",
+      "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+      "img": "",
+      "gridRow": "3",
+      "gridColumn": "auto"
+    },
+    {
+      "id": 7,
+      "company": "O'Neill",
+      "title": "Integrating existing content into O’Neill’s new e-commerce platform",
+      "img": "",
+      "gridRow": "4",
+      "gridColumn": "auto"
+    },
+    {
+      "id": 8,
+      "company": "Be Lighting",
+      "title": "Delivering clarity on a global scale",
+      "img": "lightning.png",
+      "gridRow": "6",
+      "gridColumn": "1 / 3"
+    },
+    {
+      "id": 9,
+      "company": "TUI",
+      "title": "Swipe to find your next holiday destination",
+      "img": "tui.png",
+      "gridRow": "6",
+      "gridColumn": "3 / 4"
+    },
+    {
+      "id": 10,
+      "company": "BUTLINS",
+      "title": "Enhancing customer experience for personalised holiday planning using real time data",
+      "img": "",
+      "gridRow": "7",
+      "gridColumn": "auto"
+    },
+    {
+      "id": 11,
+      "company": "VACANSESELECT",
+      "title": "Predicting booking behavior for holidays with smart data, voice search and machine learning",
+      "img": "",
+      "gridRow": "8",
+      "gridColumn": "auto"
+    },
+     {
+      "id": 12,
+      "company": "Florensis.com",
+      "title": "Rethinking the entire online ecosystem",
+      "img": "florensis.png",
+      "gridRow": "7 / 9" ,
+      "gridColumn": "2 / 4"
+    },
+    {
+      "id": 13,
+      "company": "Chocomel",
+      "title": "A campaign for the limited edition letter packs",
+      "img": "chocomel.png",
+      "gridRow": "10",
+      "gridColumn": "1 / 3"
+    },
+    {
+      "id": 14,
+      "company": "JBL",
+      "title": "Live like a champion with Jerome Booteng",
+      "img": "jbl.png",
+      "gridRow": "10",
+      "gridColumn": "3 / 4"
+    },
+    {
+      "id": 15,
+      "company": "Zalando",
+      "title": "Innovative SEO and content strategy for Zalando",
+      "img": "zalando.png",
+      "gridRow": "11",
+      "gridColumn": "1 / 3"
+    },
+    {
+      "id": 16,
+      "company": "Koninklijke Bibliotheek",
+      "title": "The search for the most influential book ever",
+      "img": "koninklijke-bibliotheek.png",
+      "gridRow": "11",
+      "gridColumn": "3 / 4"
     }
-]
+  ]

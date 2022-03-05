@@ -1,10 +1,11 @@
 <template>
     <v-card
-        class="mx-auto case-card"
-        :style="`grid-row='${gridRow}; grid-column: ${gridColumn};`"
+        class="case-card"
+        :style="`gridColumn: ${gridColumn}; gridRow:${gridRow};`"
         flat
     >
         <v-img
+            v-if="imageUrl"
             :src="require(`../assets/Images/${imageUrl}`)"
             height="500px"
         ></v-img>
@@ -64,8 +65,8 @@ export default {
             default: null,
         },
         gridRow: {
-            type: Number,
-            default: 1,
+            type: String,
+            default: '1',
         },
         gridColumn: {
             type: String,

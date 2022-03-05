@@ -36,7 +36,8 @@ export default {
 <style lang="scss">
 .case-container {
     display: grid;
-    gap: 10px;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 </style>
