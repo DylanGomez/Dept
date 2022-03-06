@@ -5,7 +5,6 @@
             <router-view />
         </v-main>
     </v-app>
-    </header-component>
 </template>
 
 <script>

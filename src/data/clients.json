@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "company": "Nivea",
+        "img": "Nivea_logo_zwart.jpg"
+    },
+    {
+        "id": 2,
+        "company": "Mona",
+        "img": "Mona_logo_zwart.jpg"
+    },
+    {
+        "id": 3,
+        "company": "Transavia",
+        "img": "Transavia_logo_zwart.jpg"
+    },
+    {
+        "id": 4,
+        "company": "Zalando",
+        "img": "Zalando_logo_zwart.jpg"
+    },
+    {
+        "id": 5,
+        "company": "TomTom",
+        "img": "Tomtom_logo_zwart.jpg"
+    },
+    {
+        "id": 6,
+        "company": "Unilever",
+        "img": "Unilever_logo_zwart.jpg"
+    },
+    {
+        "id": 7,
+        "company": "Adidas",
+        "img": "Adidas_logo_zwart.jpg"
+    },
+    {
+        "id": 8,
+        "company": "Pathe",
+        "img": "Pathe_logo_zwart.jpg"
+    },
+    {
+        "id": 9,
+        "company": "ABN",
+        "img": "ABN_logo_zwart.jpg"
+    },
+    {
+        "id": 10,
+        "company": "Triumph",
+        "img": "Triumph_logo_zwart.jpg"
+    },
+    {
+        "id": 11,
+        "company": "Microsoft",
+        "img": "Microsoft_logo_zwart-320x161.jpg"
+    },
+    {
+        "id": 12,
+        "company": "Oxxio",
+        "img": "Oxxio_logo_zwart.jpg"
+    },
+    {
+        "id": 13,
+        "company": "NN",
+        "img": "NN_logo_zwart.jpg"
+    },
+    {
+        "id": 14,
+        "company": "Ziggo",
+        "img": "Ziggo_logo_zwart.jpg"
+    },
+    {
+        "id": 15,
+        "company": "Walibi",
+        "img": "Walibi_logo_zwart.jpg"
+    },
+    {
+        "id": 16,
+        "company": "KLM",
+        "img": "KLM_logo_zwart.jpg"
+    }
+]
