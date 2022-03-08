@@ -56,93 +56,23 @@
                 </v-col>
             </v-row>
         </v-parallax>
-        <v-navigation-drawer
-            v-model="menuOpen"
-            absolute
-            color="#000"
-            width="100%"
-        >
-            <v-btn
-                text
-                dark
-                class="float-right"
-                @click="menuOpen = false"
-            >
-                <v-icon>mdi-close</v-icon>
-            </v-btn>
-            <v-list class="menu">
-                <v-list-item-group
-                    v-model="selectedItem"
-                    class="menu__item-group"
-                    active-class="deep-purple--text"
-                >
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Home
-                        </v-list-item-title>
-                    </v-list-item>
-
-                    <v-divider class="ml-5"></v-divider>
-
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Werk
-                        </v-list-item-title>
-                    </v-list-item>
-
-                    <v-divider class="ml-5"></v-divider>
-
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Over
-                        </v-list-item-title>
-                    </v-list-item>
-
-                    <v-divider class="ml-5"></v-divider>
-
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Diensten
-                        </v-list-item-title>
-                    </v-list-item>
-
-                    <v-divider class="ml-5"></v-divider>
-
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Partners
-                        </v-list-item-title>
-                    </v-list-item>
-
-                    <v-divider class="ml-5"></v-divider>
-
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Stories
-                        </v-list-item-title>
-                    </v-list-item>
-
-                    <v-divider class="ml-5"></v-divider>
-
-                    <v-list-item>
-                        <v-list-item-title class="text-list-item">
-                            Vacatures
-                        </v-list-item-title>
-                    </v-list-item>
-                </v-list-item-group>
-            </v-list>
-        </v-navigation-drawer>
+        <menu-items :opened="menuOpen"></menu-items>
     </v-container>
 </template>
 
 <script>
 
+import MenuItems from './Menu.vue'
+
 export default {
     name: 'header-component',
 
+    components: {
+        MenuItems,
+    },
+
     data: () => ({
         menuOpen: false,
-        selectedItem: null,
 
     }),
 }
@@ -153,35 +83,6 @@ export default {
 .header-text {
     font-size: 400px;
     color: #000;
-}
-
-.menu {
-    &__item-group {
-        display: block;
-        v-list-item {
-        }
-    }
-}
-
-.text-list-item {
-    color: #fff !important;
-    font-size: 110px !important;
-}
-
-.theme--light.v-divider {
-    border-color: #fff !important;
-    width: 100vw !important;
-}
-
-.icon-active {
-    content: "\e5cc";
-}
-
-.triangle {
-
-    border-style: solid;
-    border-width: 20px 0 20px 30px;
-    border-color: transparent transparent transparent #ffff;
 }
 
 </style>

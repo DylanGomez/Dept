@@ -1,6 +1,6 @@
 <template>
     <v-card
-        class="client-card ma-auto"
+        class="client-card justify-center"
         flat
     >
         <v-img
@@ -8,6 +8,7 @@
             class="image"
             :src="require(`../assets/Logos/${imageUrl}`)"
             max-width="250px"
+            height="auto"
         ></v-img>
     </v-card>
 </template>
