@@ -13,7 +13,7 @@
             </case-block>
         </v-container>
         <v-container fluid class="client-container">
-            <v-container class="text-center testclass mb-5">
+            <v-container class="text-center client-container__inner-container mb-5">
                 <h2>Clients</h2>
                 <span>We value a great working relationship with our clients above all else. It’s why they often come to our parties.
                     It’s also why we’re able to challenge and inspire them to reach for the stars.</span>
@@ -65,10 +65,17 @@ export default {
     justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+    .case-container {
+        display: block;
+        width: 90%;
+    }
+}
+
 .client-container {
     background-color: #f3f6f6;
 
-    .testclass {
+    &__inner-container {
         width: 560px;
 
         h2 {
@@ -87,6 +94,20 @@ export default {
         display: grid;
         gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .client-container {
+
+        &__inner-container {
+            width: 100vw;
+        }
+
+        &__logos {
+            gap: 1rem;
+            grid-template-columns: 50% 50%;
+        }
     }
 }
 

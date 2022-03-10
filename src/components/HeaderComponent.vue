@@ -2,15 +2,13 @@
     <v-container fluid>
         <v-parallax
             src="../assets/Images/Header.jpg"
+            class="pa-5 parralax"
             height="800"
-            class="pa-5"
         >
             <v-app-bar
-                app
-                color="transparent"
                 absolute
                 elevate-on-scroll
-                class="mx-5"
+                class="app-bar"
             >
                 <div class="d-flex align-center">
                     <v-img
@@ -19,7 +17,7 @@
                         contain
                         src="../assets/Dept-logo.png"
                         transition="scale-transition"
-                        width="60"
+                        width="60px"
                     />
                 </div>
 
@@ -37,6 +35,7 @@
             <v-row
                 align="center"
                 justify="center"
+                class=""
             >
                 <v-col>
                     <h1 class="header-text ml-3">
@@ -48,7 +47,7 @@
             <v-row align="end">
                 <v-col
                     cols="auto"
-                    class="ml-auto ma-5"
+                    class=" case-button"
                 >
                     <v-btn dark x-large>
                         View case
@@ -83,6 +82,37 @@ export default {
 .header-text {
     font-size: 400px;
     color: #000;
+}
+
+.case-button {
+    margin-left: auto !important;
+    margin: 1.25rem;
+}
+
+.app-bar {
+    background-color: transparent !important;
+    margin: 0 1.25rem;
+}
+
+//mobile scss
+
+@media only screen and (max-width: 768px) {
+
+    .app-bar {
+        background-color: #fff !important;
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-text {
+        // i removed the header text since I didn't like how it looked, so I drifted a bit from the design
+        display: none;
+    }
+
+    .parralax {
+        height: 250px !important;
+        object-fit: cover;
+    }
 }
 
 </style>

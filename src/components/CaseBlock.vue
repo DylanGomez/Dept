@@ -7,7 +7,7 @@
         <v-img
             v-if="imageUrl"
             :src="require(`../assets/Images/${imageUrl}`)"
-            height="500px"
+            class="case-card__image"
             width="40rem"
         ></v-img>
 
@@ -85,7 +85,17 @@ export default {
 <style lang="scss">
 
 .case-card {
-        // importants here are used to overwrite default font sizes of vuetify cards
+
+    &__image {
+        height: 500px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        &__image {
+            height: 250px;
+        }
+    }
+    // importants here are used to overwrite default font sizes of vuetify cards
     &__title {
         font-family: Arial;
         font-size: 1rem !important;
